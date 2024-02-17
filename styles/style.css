@@ -1,0 +1,80 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Main container styles */
+main {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Story container styles */
+.story-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 2rem;
+}
+
+/* Word button styles */
+.word-btn {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.word-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Generate story button styles */
+#generate-story,
+#generate-random-story,
+#reset-story {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#generate-story:hover,
+#generate-random-story:hover,
+#reset-story:hover {
+  background-color: #218838;
+}
+
+/* Story output styles */
+#story-output {
+  margin-top: 2rem;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+}
