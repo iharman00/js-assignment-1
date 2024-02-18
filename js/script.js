@@ -50,4 +50,5 @@ resetStory.addEventListener("click", () => {
   buttons.forEach((button, index) => {
     button.textContent = `Word ${index + 1}`;
   });
+  storyOutput.textContent = ""
 });
